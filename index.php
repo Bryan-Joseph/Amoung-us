@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Amoung us generator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS  if error remove 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script> -->
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</head>
+<body class="bg-primary">
+    <div class="text-center bg-white my-5">
+        <style>
+        #amm-img{
+            height: 400px;
+        }
+            
+        </style>
+
+        <img id="amm-img" class="img-fluid my-4" src="images/egs-amongus-innersloth-s6-1200x1600-675403712.webp">
+    </div>
+    <div class="text-center bg-white my-5">
+        <form action="file.php" method="get">
+            <h1 class="mt-1 mb-1">No. of people playing :</h1>
+            <input class="mb-1" type="number" id="p" value="0" name="p">
+            <br>
+            <input type="submit" value="Next"class="btn btn-success mb-1">
+        </form>
+    </div>
+</body>
+</html>
